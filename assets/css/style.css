@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    font-family: "Roboto", system-ui;
+}
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    padding: 32px 0;
+}
+.header__cleaning{
+    margin-left: 110px;
+}
+.header__info{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #211F54;
+}
+.header__text-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    font-size: 18px;
+    color: #211F54;
+}
+.header__right-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.header__cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.header__button{
+    background-color: #0075FF;
+    border-radius: 14px;
+    width: 174px;
+    height: 54px;
+    margin-right: 110px;
+}
+.header__button-text{
+    font-size: 16px;
+    color: #fff;
+}
+
+.covid{
+    background: url(/assets/img/back.png) no-repeat;
+    width: 1440px;
+    height: 676px;
+    margin-left: 110px;
+    
+}
+.covid__text-block{
+    color: #fff;
+    width: 556px;
+    height: 401px;
+    margin-left: 600px;
+    padding-top: 138px;
+}
+.covid__covid-19{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.covid__guidelines{
+    font-size: 48px;
+    
+}
+.covid__lobortis{
+    font-size: 21px;
+}
+.covid__free{
+    font-size: 18px;
+}
+.covid__button{
+    background-color: #0075FF;
+    border-radius: 14px;
+    width: 174px;
+    height: 54px;
+    width: 217px;
+    height: 72px;
+}
+.covid__button-text{
+    color: #fff;
+    font-size: 18px;
+}
+
+.services{
+    padding: 90px 0;
+    padding-left: 86px;
+
+}
+
+.services__text-block{
+    display: flex;
+    align-items: center;
+    gap: 531px;
+
+}
+
+.services__text-block-take{
+    font-size: 48px;
+    color: #211F54;
+}
+
+.services__btn{
+    font-size: 18px;
+    margin-right: 110px;
+    background-color: #EFF0F6;
+    border-radius: 14px;
+    width: 214px;
+    height: 73px;
+}
+
+.contact{
+    padding: 90px 0;
+    padding-left: 86px;
+}
+
+.footer{
+    padding: 32px 0;
+    align-items: center;
+}
+.footer__cleaning{
+    margin-left: 110px;
+}
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #6E7191;
+}
+.footer__text-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    font-size: 18px;
+    margin-right: 110px;
+    font-size: 18px;
+}
